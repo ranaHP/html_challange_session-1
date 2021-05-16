@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Recursive:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    background: rgb(12,214,232);
+    background: linear-gradient(45deg, rgb(37, 237, 255) 0%, rgb(223, 33, 204) 100%);}
+
+.registerContainer{
+    min-height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 2px 1px 10px 0px rgba(10, 10, 10, 0.493);
+}
+.title{
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Recursive' , sans-serif;
+}
+
+.form{
+    min-height: 500px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+input,select,textarea{
+    width: 100%;
+    border: 0px ;
+    border-bottom: 1px solid rgba(145, 143, 143, 0.445);
+    height: 35px;
+    background-color: #fff;
+}
+input::placeholder , select::placeholder ,textarea::placeholder{
+    color: rgba(136, 135, 135, 0.76);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+select , option{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-left: -4px;
+}
+.inputText{
+    font-size: 12px;
+    margin-bottom: -5px;
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.inputTextCotainer{
+    margin-bottom: px;
+}
+textarea{
+    height: 100px;
+    margin-top: 8px;
+}
+.fromcontroller{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+button{
+    width: 100%;
+    border-radius: 40px;
+    height: 30px;
+    background-image: linear-gradient( 90deg ,rgb(252, 87, 235) 0%, rgb(3, 214, 233) 100%);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    box-shadow: 2px 2px 3px 0px rgba(10, 10, 10, 0.322);
+
+}
